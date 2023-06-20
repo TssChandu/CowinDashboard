@@ -1,0 +1,75 @@
+.cowin-bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.cowin-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+.website-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.cowin-heading {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-heading {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .website-logo {
+    width: 25px;
+    height: 25px;
+  }
+  .cowin-heading {
+    font-size: 25px;
+  }
+  .main-heading {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.failure-img {
+  width: 350px;
+  height: 250px;
+  margin-bottom: 15px;
+}
+.failure-description {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: 600;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

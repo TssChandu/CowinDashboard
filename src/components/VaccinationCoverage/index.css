@@ -1,0 +1,36 @@
+.vac-cov-container {
+  background-color: #1c1c2b;
+  padding: 15px;
+  margin: 8px;
+  width: 80vw;
+  height: 55vh;
+  margin-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  .vac-cov-container {
+    height: 40vh;
+  }
+}
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.bar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.vac-date {
+  color: greenyellow;
+  font-family: 'Roboto';
+  font-size: 5px;
+  font-weight: 600;
+}
+.vac-data {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
